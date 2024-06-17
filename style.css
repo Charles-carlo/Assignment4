@@ -21,11 +21,11 @@ nav{
 }
 nav  ul{
     display: flex;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color:#636363;
     list-style: none;
-    gap: 3rem;
+    gap: 2.5rem;
 }
 nav  li{
     display: flex;
@@ -42,6 +42,11 @@ nav li a {
 .dropdown{
     position: relative;
     display: inline-block;
+}
+.dropdown a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 .dropdown-content{
     display: none;
