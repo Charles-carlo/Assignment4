@@ -125,3 +125,95 @@ nav .btn button{
     border-radius: 16px;
     border: 1px solid #6FC247;
 }
+
+/* section c styling */
+
+.C{
+    text-align: center;
+}
+.C h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+.C p{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0rem 8rem;
+}
+.C .row{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* section d styling */
+
+.D{
+    text-align: center;
+    padding: 3rem 3rem;
+    background-color: black;
+    color: white;
+}
+.D .desc{
+    display: flex;
+    text-align: left;
+    padding-top: 1rem;
+}
+.D h1{
+    font-size: 35px;
+}
+.D p{
+    font-size: 20px;
+}
+.D > p{
+    padding: 0rem 10rem;
+}
+.D .desc p{
+    padding-right: 2rem;
+}
+
+/* section E styling */
+
+.E{
+    padding: 2rem 8rem;
+}
+.desc{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.desc h1{
+    color: #373737;
+    font-size: 30px;
+}
+.E .desc p{
+    font-size: 20px;
+    color: #373737;
+}
+.snd{
+    display: flex;
+    gap: 4rem;
+    font-size: 20px;
+    color: #373737;
+}
+.snd .left .pgraph{
+    padding-bottom: 4rem;
+}
+
+.E .btn{
+    padding-top: 4rem;
+}
+
+.E .btn button{
+    background-color:#6FC247;
+    color: white;
+    font-size: 1rem;
+    padding: 24px 40px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 16px;
+    border: 1px solid #6FC247;
+}
