@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+nav{
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    padding: 1rem 4rem;
+    background-color: white;
+    position: fixed;
+    top: 0%;
+    box-shadow: 0 2px 4px rgba(139, 130, 130, 0.2);
+}
+nav  ul{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    color:#636363;
+    list-style: none;
+    gap: 3rem;
+}
+nav  li{
+    display: flex;
+}
+nav li a {
+    display: block;
+    color:#636363;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* dropdown menu styles */
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+nav .btn button{
+    background-color:#6FC247;
+    color: white;
+    font-size: 1rem;
+    padding: 24px 40px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 16px;
+    border: 1px solid #6FC247;
+}
+
+
+/* main styling */
+
+.A{
+    margin-top: 10rem;
+    text-align: center;
+    padding: 0rem 8rem;
+    margin-bottom: 4rem;
+}
+.A h1{
+    font-size: 60px;
+    color: #373737;
+}
+.A p{
+    font-size: 24px;
+    padding: 0rem 6rem;
+    color: #373737;
+}
+
+/* main styling btn */
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.demo{
+    background-color:#6FC247;
+    color: white;
+    font-size: 1rem;
+    padding: 24px 40px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 16px;
+    border: 1px solid #6FC247;
+}
+.logbtn{
+    background-color:white;
+    color: #6FC247;
+    font-size: 1rem;
+    padding: 24px 40px;
+    width: 250px;
+    border-radius: 16px;
+    border: 1px solid #6FC247;
+}
