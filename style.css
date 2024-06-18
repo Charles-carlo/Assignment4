@@ -180,6 +180,9 @@ nav .btn button{
     text-align: left;
     padding-top: 1rem;
 }
+.desc1 b h1{
+    color: white;
+}
 .D h1{
     font-size: 35px;
 }
@@ -368,11 +371,11 @@ nav .btn button{
         text-align: center;
         padding-bottom: 2rem;
     }
-    .desc h1{
+    .desc > h1{
         color: #373737;
         font-size: 30px;
     }
-    .E .desc p{
+    .E .desc > p{
         font-size: 20px;
         color: #373737;
     }
